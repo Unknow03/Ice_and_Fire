@@ -518,6 +518,7 @@
   "item.iceandfire.banner_pattern_troll.desc": "Troll Head",
   "item.iceandfire.banner_pattern_dread": "Banner Pattern",
   "item.iceandfire.banner_pattern_dread.desc": "Dread",
+  "item.iceandfire.dragon_tracker": "Dragontracker",
 
   "entity.iceandfire.dragon_multipart": "Dragon Part",
   "entity.iceandfire.multipart": "Part",
@@ -1031,7 +1032,7 @@
   "block.minecraft.banner.lightning_head.green": "Green Lightning Dragon Head",
   "block.minecraft.banner.lightning_head.red": "Red Lightning Dragon Head",
   "block.minecraft.banner.lightning_head.black": "Black Lightning Dragon Head",
-  
+
   "block.minecraft.banner.gorgon.white": "White Gorgon",
   "block.minecraft.banner.gorgon.orange": "Orange Gorgon",
   "block.minecraft.banner.gorgon.magenta": "Magenta Gorgon",

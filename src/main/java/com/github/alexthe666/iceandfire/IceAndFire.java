@@ -8,6 +8,7 @@ import com.github.alexthe666.iceandfire.entity.IafVillagerRegistry;
 import com.github.alexthe666.iceandfire.entity.tile.IafTileEntityRegistry;
 import com.github.alexthe666.iceandfire.inventory.IafContainerRegistry;
 import com.github.alexthe666.iceandfire.item.IafItemRegistry;
+import com.github.alexthe666.iceandfire.item.ItemDragonTracker;
 import com.github.alexthe666.iceandfire.loot.IafLootRegistry;
 import com.github.alexthe666.iceandfire.message.*;
 import com.github.alexthe666.iceandfire.world.IafProcessors;
@@ -89,6 +90,7 @@ public class IceAndFire {
         modLoadingContext.registerConfig(ModConfig.Type.COMMON, ConfigHolder.SERVER_SPEC);
         MinecraftForge.EVENT_BUS.addListener(this::onBiomeLoadFromJSON);
         MinecraftForge.EVENT_BUS.addListener(this::onServerStarted);
+        MinecraftForge.EVENT_BUS.addListener(new ItemDragonTracker()::event);
         PROXY.init();
 
         final IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();

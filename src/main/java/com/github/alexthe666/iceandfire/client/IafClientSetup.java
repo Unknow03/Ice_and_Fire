@@ -19,6 +19,7 @@ import com.github.alexthe666.iceandfire.entity.tile.IafTileEntityRegistry;
 import com.github.alexthe666.iceandfire.item.IafItemRegistry;
 import com.github.alexthe666.iceandfire.item.ItemDragonBow;
 import com.github.alexthe666.iceandfire.item.ItemDragonHorn;
+import com.github.alexthe666.iceandfire.item.ItemDragonTracker;
 import com.github.alexthe666.iceandfire.item.ItemSummoningCrystal;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
@@ -191,6 +192,9 @@ public class IafClientSetup {
         });
         ItemModelsProperties.registerProperty(IafItemRegistry.TIDE_TRIDENT, new ResourceLocation("throwing"), (p_239419_0_, p_239419_1_, p_239419_2_) -> {
             return p_239419_2_ != null && p_239419_2_.isHandActive() && p_239419_2_.getActiveItemStack() == p_239419_0_ ? 1.0F : 0.0F;
+        });
+        ItemModelsProperties.registerProperty(IafItemRegistry.DRAGON_TRACKER, new ResourceLocation("iceorfire"), (p_239428_0_, p_239428_1_, p_239428_2_) -> {
+            return ItemDragonTracker.getAngle(p_239428_2_);
         });
     }
 }

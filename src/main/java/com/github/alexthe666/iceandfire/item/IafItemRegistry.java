@@ -86,7 +86,7 @@ public class IafItemRegistry {
     public static final Item COPPER_PICKAXE = new ItemModPickaxe(COPPER_TOOL_MATERIAL, "copper_pickaxe");
     public static final Item COPPER_AXE = new ItemModAxe(COPPER_TOOL_MATERIAL, "copper_axe");
     public static final Item COPPER_HOE = new ItemModHoe(COPPER_TOOL_MATERIAL, "copper_hoe");
-    
+
     public static final Item FIRE_STEW = new ItemGeneric("fire_stew");
     public static final Item FROST_STEW = new ItemGeneric("frost_stew");
     public static final Item LIGHTNING_STEW = new ItemGeneric("lightning_stew");
@@ -323,6 +323,7 @@ public class IafItemRegistry {
     public static final Item ECTOPLASM = new ItemGeneric("ectoplasm");
     public static final Item GHOST_INGOT = new ItemGeneric("ghost_ingot", 1);
     public static final Item GHOST_SWORD = new ItemGhostSword();
+    public static final Item DRAGON_TRACKER = new ItemDragonTracker();
 
     static {
         EnumDragonArmor.initArmors();

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LIF",
+    "ISI",
+    "FIL"
+  ],
+  "key": {
+    "L": {
+      "item": "iceandfire:lightning_dragon_heart"
+    },
+    "F": {
+      "item": "iceandfire:fire_dragon_heart"
+    },
+    "S": {
+      "tag": "iceandfire:dragon_skulls"
+    },
+    "I": {
+      "item": "iceandfire:ice_dragon_heart"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragon_tracker"
+  }
+}
