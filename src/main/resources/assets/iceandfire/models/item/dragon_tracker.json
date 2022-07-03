@@ -3,112 +3,174 @@
   "textures": {
     "layer0": "iceandfire:item/dragon_tracker"
   },
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [
-        80,
-        -260,
-        -40
-      ],
-      "translation": [
-        -1,
-        -2,
-        2.5
-      ],
-      "scale": [
-        1.2,
-        0.9,
-        1.2
-      ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [
-        80,
-        280,
-        40
-      ],
-      "translation": [
-        -1,
-        -2,
-        2.5
-      ],
-      "scale": [
-        1.2,
-        0.9,
-        1.2
-      ]
-    },
-    "firstperson_righthand": {
-      "rotation": [
-        0,
-        90,
-        25
-      ],
-      "translation": [
-        1.13,
-        3.2,
-        1.13
-      ],
-      "scale": [
-        0.88,
-        0.68,
-        0.88
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        0,
-        -90,
-        -25
-      ],
-      "translation": [
-        1.13,
-        3.2,
-        1.13
-      ],
-      "scale": [
-        0.88,
-        0.68,
-        0.88
-      ]
-    }
-  },
   "overrides": [
+    {
+      "predicate": {
+        "iceorfire": 0
+      },
+      "model": "iceandfire:item/dragon_tracker_00"
+    },
     {
       "predicate": {
         "iceorfire": 1
       },
-      "model": "iceandfire:item/dragon_tracker_1"
+      "model": "iceandfire:item/dragon_tracker_01"
     },
     {
       "predicate": {
         "iceorfire": 2
       },
-      "model": "iceandfire:item/dragon_tracker_2"
+      "model": "iceandfire:item/dragon_tracker_02"
     },
     {
       "predicate": {
         "iceorfire": 3
       },
-      "model": "iceandfire:item/dragon_tracker_3"
+      "model": "iceandfire:item/dragon_tracker_03"
     },
     {
       "predicate": {
         "iceorfire": 4
       },
-      "model": "iceandfire:item/dragon_tracker_4"
+      "model": "iceandfire:item/dragon_tracker_04"
     },
     {
       "predicate": {
         "iceorfire": 5
       },
-      "model": "iceandfire:item/dragon_tracker_5"
+      "model": "iceandfire:item/dragon_tracker_05"
     },
     {
       "predicate": {
         "iceorfire": 6
       },
-      "model": "iceandfire:item/dragon_tracker_6"
+      "model": "iceandfire:item/dragon_tracker_06"
+    },
+    {
+      "predicate": {
+        "iceorfire": 8
+      },
+      "model": "iceandfire:item/dragon_tracker_08"
+    },
+    {
+      "predicate": {
+        "iceorfire": 10
+      },
+      "model": "iceandfire:item/dragon_tracker_10"
+    },
+    {
+      "predicate": {
+        "iceorfire": 11
+      },
+      "model": "iceandfire:item/dragon_tracker_11"
+    },
+    {
+      "predicate": {
+        "iceorfire": 12
+      },
+      "model": "iceandfire:item/dragon_tracker_12"
+    },
+    {
+      "predicate": {
+        "iceorfire": 13
+      },
+      "model": "iceandfire:item/dragon_tracker_13"
+    },
+    {
+      "predicate": {
+        "iceorfire": 14
+      },
+      "model": "iceandfire:item/dragon_tracker_14"
+    },
+    {
+      "predicate": {
+        "iceorfire": 15
+      },
+      "model": "iceandfire:item/dragon_tracker_15"
+    },
+    {
+      "predicate": {
+        "iceorfire": 16
+      },
+      "model": "iceandfire:item/dragon_tracker_16"
+    },
+    {
+      "predicate": {
+        "iceorfire": 17
+      },
+      "model": "iceandfire:item/dragon_tracker_17"
+    },
+    {
+      "predicate": {
+        "iceorfire": 18
+      },
+      "model": "iceandfire:item/dragon_tracker_18"
+    },
+    {
+      "predicate": {
+        "iceorfire": 19
+      },
+      "model": "iceandfire:item/dragon_tracker_19"
+    },
+    {
+      "predicate": {
+        "iceorfire": 20
+      },
+      "model": "iceandfire:item/dragon_tracker_20"
+    },
+    {
+      "predicate": {
+        "iceorfire": 21
+      },
+      "model": "iceandfire:item/dragon_tracker_21"
+    },
+    {
+      "predicate": {
+        "iceorfire": 22
+      },
+      "model": "iceandfire:item/dragon_tracker_22"
+    },
+    {
+      "predicate": {
+        "iceorfire": 24
+      },
+      "model": "iceandfire:item/dragon_tracker_24"
+    },
+    {
+      "predicate": {
+        "iceorfire": 26
+      },
+      "model": "iceandfire:item/dragon_tracker_26"
+    },
+    {
+      "predicate": {
+        "iceorfire": 27
+      },
+      "model": "iceandfire:item/dragon_tracker_27"
+    },
+    {
+      "predicate": {
+        "iceorfire": 28
+      },
+      "model": "iceandfire:item/dragon_tracker_28"
+    },
+    {
+      "predicate": {
+        "iceorfire": 29
+      },
+      "model": "iceandfire:item/dragon_tracker_29"
+    },
+    {
+      "predicate": {
+        "iceorfire": 30
+      },
+      "model": "iceandfire:item/dragon_tracker_30"
+    },
+    {
+      "predicate": {
+        "iceorfire": 31
+      },
+      "model": "iceandfire:item/dragon_tracker_31"
     }
   ]
 }
